@@ -9,7 +9,6 @@ const FoodDisplay = ({category}) => {
   return (
     <div className='app'>
       <h2 className='text-[max(2vw,24px)] font-bold mb-4'>Top dishes near you</h2>
-      <p>Hii I am gii</p>
       <div className='grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-7.5 row-gap-[50px]'>
         {
           food_list.map((item, index) => {
