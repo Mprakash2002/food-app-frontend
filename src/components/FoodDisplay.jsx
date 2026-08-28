@@ -10,6 +10,7 @@ const FoodDisplay = ({category}) => {
     <div className='app'>
       <h2 className='text-[max(2vw,24px)] font-bold mb-4'>Top dishes near you</h2>
       <div className='grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-7.5 row-gap-[50px]'>
+        this is the end
         {
           food_list.map((item, index) => {
             if (category==="All" || category === item.category) {
